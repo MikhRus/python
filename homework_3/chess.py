@@ -1,6 +1,3 @@
-from pyrsistent import b
-
-
 chessBoard = []
 chessArray = {
     'wking':1,
