@@ -1,6 +1,7 @@
 #! python3
 # mclip.py - программа с несколькими буферами обмена.
-import sys
+import sys, pyperclip
+
 
 TEXT = {'Согласен': """Да, я согласен. Мне это подходит.""",
         'Занят': """Извините, можно перенести это на конец недели или на следующую неделю?""",
@@ -11,3 +12,11 @@ if len(sys.argv) < 2:
     sys.exit()
 
 keyphrase = sys.argv[1] # первый аргумент командной строки - ключевое слово
+
+if keyphrase in TEXT:
+    pyperclip.copy(TEXT[keyphrase])
+    print(f'Текст для \'{keyphrase}\' скопирован в буфер обмена.')
+else:
+    print(f'Текст для {keyphrase} отсутствует.')
+
+    
