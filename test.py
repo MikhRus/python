@@ -1,4 +1,6 @@
-import pyperclip
-
-pyperclip.copy('Hello!')
-pyperclip.paste()
+string = ''
+one = 'string'
+two = 'what?'
+string += one
+string += two
+print(string)
