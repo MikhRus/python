@@ -1,4 +1,5 @@
 import zombiedice
+import random
 
 class MyZombie:
     def __init__(self, name):
@@ -20,14 +21,24 @@ class MyZombie:
         #            ('green', 'shotgun')]}
 
         # REPLACE THIS ZOMBIE CODE WITH YOUR OWN:
-        brains = 0
+        #brains = 0
+        shotgun = 0
+        allTurns = random.randint(1,4)
+        print(allTurns)
+        currentTerns = 0
         while diceRollResults is not None:
-            brains += diceRollResults['brains']
-
-            if brains < 2:
-                diceRollResults = zombiedice.roll() # roll again
+            
+            #brains += diceRollResults['brains']
+            if currentTerns < allTurns:
+                currentTerns = currentTerns + 1 
+                shotgun += diceRollResults['shotgun']
+                if shotgun >= 2:
+                    break
+                else:
+                    diceRollResults = zombiedice.roll() # roll again
             else:
                 break
+        
 
 
 
@@ -36,7 +47,7 @@ zombies = (
     zombiedice.examples.RollsUntilInTheLeadZombie(name='Until Leading'),
     zombiedice.examples.MinNumShotgunsThenStopsZombie(name='Until 2 Shotguns', minShotguns=2),
     zombiedice.examples.MinNumShotgunsThenStopsZombie(name='Until 1 Shotgun', minShotguns=1),
-    MyZombie(name='My Zombie Bot'),
+    MyZombie(name='My 1-4 try Zombie Bot'),
     # Add any other zombie players here.
 )
 
