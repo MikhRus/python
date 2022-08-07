@@ -13,9 +13,9 @@ phoneRegex = re.compile(r'''(       # phone Regex
 )''', re.VERBOSE)
 
 emailRegex = re.compile(r'''        # email Regex
-    [a-zA-Z0-9._%+-]+               # username
-    @                               # @
-    [a-zA-Z0-9.-]+                  # Before .com-like part of domain name
+    ([a-zA-Z0-9._%+-]+)             # username
+    (@)                             # @
+    ([a-zA-Z0-9.-]+)                # Before .com-like part of domain name
     (\.[a-zA-Z]{2,4})               # .com-like part of domain name
 ''', re.VERBOSE)
 
@@ -24,14 +24,17 @@ text = str(pyperclip.paste())       # copy text form buffer to var
 
 matches = []
 # Insert correct for of phoneNumbers to list
+matches.append('Phones:')
 for groups in phoneRegex.findall(text):
     phoneNum = '-'.join([groups[1], groups[3], groups[5]])
     if groups[8] != '':
         phoneNum += ' x' + groups[8]
     matches.append(phoneNum)
 # Insert emails to list
+matches.append('E-mails:')
 for groups in emailRegex.findall(text):
-    matches.append(groups[0])
+    joinEmailAddress = ''.join(groups)
+    matches.append(joinEmailAddress)
 
 # Copy to buffer
 if len(matches) > 0:
