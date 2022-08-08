@@ -1,10 +1,7 @@
-import random
+import re
 
-#print(random.randrange(0,2))
+censoreRegex = re.compile(r'agent (\w)\w+', re.I)
 
-if int(random.randrange(0,2)) == 1:
-    print('true')
-else:
-    print('false')
+test = censoreRegex.sub(r'\1****', 'Agent Ann is very secret dude. Help agent Bob find important docs.')
 
-print(bool(random.randint(0,1)))
+print(test)
