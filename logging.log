@@ -1,0 +1,52 @@
+ 2022-09-16 09:27:03,809 - DEBUG - Start of programm
+ 2022-09-16 09:27:03,811 - DEBUG - Start factorial (5)
+ 2022-09-16 09:27:03,811 - DEBUG - i = 1, total = 1
+ 2022-09-16 09:27:03,811 - DEBUG - i = 2, total = 2
+ 2022-09-16 09:27:03,812 - DEBUG - i = 3, total = 6
+ 2022-09-16 09:27:03,812 - DEBUG - i = 4, total = 24
+ 2022-09-16 09:27:03,812 - DEBUG - i = 5, total = 120
+ 2022-09-16 09:27:03,813 - DEBUG - End of factorial (5)
+ 2022-09-16 09:27:03,814 - DEBUG - End of programm
+ 2022-09-16 09:27:22,319 - DEBUG - Start of programm
+ 2022-09-16 09:27:22,320 - DEBUG - Start factorial (5)
+ 2022-09-16 09:27:22,321 - DEBUG - i = 1, total = 1
+ 2022-09-16 09:27:22,321 - DEBUG - i = 2, total = 2
+ 2022-09-16 09:27:22,321 - DEBUG - i = 3, total = 6
+ 2022-09-16 09:27:22,322 - DEBUG - i = 4, total = 24
+ 2022-09-16 09:27:22,322 - DEBUG - i = 5, total = 120
+ 2022-09-16 09:27:22,322 - DEBUG - End of factorial (5)
+ 2022-09-16 09:27:22,323 - DEBUG - End of programm
+ 2022-09-16 10:52:41,536 - DEBUG - Start of programm
+ 2022-09-16 10:52:51,160 - DEBUG - Start factorial (5)
+ 2022-09-16 10:52:55,355 - DEBUG - i = 1, total = 1
+ 2022-09-16 10:52:55,356 - DEBUG - i = 2, total = 2
+ 2022-09-16 10:52:55,357 - DEBUG - i = 3, total = 6
+ 2022-09-16 10:52:55,358 - DEBUG - i = 4, total = 24
+ 2022-09-16 10:52:55,359 - DEBUG - i = 5, total = 120
+ 2022-09-16 10:52:55,359 - DEBUG - End of factorial (5)
+ 2022-09-16 10:52:56,905 - DEBUG - End of programm
+ 2022-09-16 10:53:02,386 - DEBUG - Start of programm
+ 2022-09-16 10:53:13,742 - DEBUG - Start factorial (5)
+ 2022-09-16 10:53:13,743 - DEBUG - i = 1, total = 1
+ 2022-09-16 10:53:13,744 - DEBUG - i = 2, total = 2
+ 2022-09-16 10:53:13,745 - DEBUG - i = 3, total = 6
+ 2022-09-16 10:53:13,746 - DEBUG - i = 4, total = 24
+ 2022-09-16 10:53:13,747 - DEBUG - i = 5, total = 120
+ 2022-09-16 10:53:13,747 - DEBUG - End of factorial (5)
+ 2022-09-16 10:53:27,257 - DEBUG - Start of programm
+ 2022-09-16 10:53:31,563 - DEBUG - Start factorial (5)
+ 2022-09-16 10:53:31,564 - DEBUG - i = 1, total = 1
+ 2022-09-16 10:53:31,564 - DEBUG - i = 2, total = 2
+ 2022-09-16 10:53:31,565 - DEBUG - i = 3, total = 6
+ 2022-09-16 10:53:31,565 - DEBUG - i = 4, total = 24
+ 2022-09-16 10:53:31,566 - DEBUG - i = 5, total = 120
+ 2022-09-16 10:53:31,567 - DEBUG - End of factorial (5)
+ 2022-09-16 10:53:31,568 - DEBUG - End of programm
+ 2022-09-16 10:53:43,652 - DEBUG - Start of programm
+ 2022-09-16 10:53:51,897 - DEBUG - Start factorial (5)
+ 2022-09-16 10:53:54,468 - DEBUG - i = 1, total = 1
+ 2022-09-16 10:53:58,371 - DEBUG - i = 2, total = 2
+ 2022-09-16 10:54:02,571 - DEBUG - i = 3, total = 6
+ 2022-09-16 10:54:02,572 - DEBUG - i = 4, total = 24
+ 2022-09-16 10:54:02,573 - DEBUG - i = 5, total = 120
+ 2022-09-16 10:54:02,574 - DEBUG - End of factorial (5)

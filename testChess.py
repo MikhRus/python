@@ -17,7 +17,7 @@ chessArray = {
 sumItems = 17
 for k,v in chessArray.items():
     sum = 0
-    if 
+    #if 
 #chessBoard = {'1h':'chess','1h':'shess'}
 
 #print(chessBoard)
