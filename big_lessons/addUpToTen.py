@@ -1,4 +1,3 @@
-from urllib import response
 import pyinputplus as pyip
 
 def addUpToTen(numbers):
